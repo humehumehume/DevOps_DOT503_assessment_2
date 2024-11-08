@@ -5,4 +5,5 @@ asasdasd
 second commit
 third step
 
+conflict x
 conflict y
