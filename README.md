@@ -6,3 +6,4 @@ second commit
 third step
 
 conflict z
+conflict x
