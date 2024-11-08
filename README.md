@@ -4,3 +4,5 @@ changes123321
 asasdasd
 second commit
 third step
+
+conflict x
