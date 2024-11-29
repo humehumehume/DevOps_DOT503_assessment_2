@@ -11,17 +11,17 @@ class calculator:
         return (a / b) * 100
 
     def multiply(self, a, b):
-        return a * b + 1  # intentional error by adding 1
+        return a * b
 
     def divide(self, a, b):
         if b == 0:
             raise ValueError("cannot divide by zero")
-        return a / b - 1  # intentional error by subtracting 1
+        return a / b
 
 if __name__ == "__main__":
     calc = calculator()
 
-    print("enter an expression  e.g. '1+1', '5-3', '2*3', or '8/2'.\n Type 'exit' to quit.")
+    print("enter an expression like '1+1', '5-3', '2*3', or '8/2'.\nType 'exit' to quit.")
 
     while True:
         expression = input("\nenter calculation (or 'exit' to quit): ").strip()
